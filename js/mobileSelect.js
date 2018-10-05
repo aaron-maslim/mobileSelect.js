@@ -108,15 +108,7 @@
       _this.grayLayer.addEventListener('click',function(){
         _this.hide();
       });
-      _this.grayLayer.addEventListener('touchstart',function(event){
-        event.stopPropagation();
-        event.preventDefault();
-      });
       _this.grayLayer.addEventListener('touchmove',function(event){
-        event.stopPropagation();
-        event.preventDefault();
-      });
-      _this.grayLayer.addEventListener('touchend',function(event){
         event.stopPropagation();
         event.preventDefault();
       });
