@@ -3,7 +3,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
   mode: "production",
-  entry: "./js/mobileSelect.js",
+  entry: "./js/mobile-select.js",
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "mobile-select.js",

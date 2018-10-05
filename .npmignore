@@ -7,3 +7,4 @@ LICENSE
 .*ignore
 demo.html
 *.config.js
+gulpfile.js
