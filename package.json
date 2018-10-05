@@ -1,21 +1,47 @@
 {
   "name": "mobile-select",
-  "version": "1.0.0",
-  "description": "",
-  "main": "mobileSelect.js",
+  "main": "dist/mobile-select.js",
+  "version": "1.1.2",
+  "keywords": [
+    "mobile-selector",
+    "selector",
+    "mobile-select",
+    "mobile-picker",
+    "picker",
+    "select-component",
+    "picker-component",
+    "mobile-component",
+    "cascade",
+    "cascade-picker"
+  ],
+  "files": [
+    "dist"
+  ],
+  "description": "A multi-function mobile phone scrolling selector, support single to multi-select, support multi-level cascade, provide custom callback function, provide update function redraw, relocation function, compatible pc drag and so on.",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aaron-maslim/mobileSelect.js.git"
   },
-  "author": "",
+  "author": {
+    "name": "onlyhom"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/aaron-maslim/mobileSelect.js/issues"
   },
-  "homepage": "https://github.com/aaron-maslim/mobileSelect.js#readme"
+  "homepage": "https://github.com/aaron-maslim/mobileSelect.js#readme",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "mini-css-extract-plugin": "^0.4.3",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
 }

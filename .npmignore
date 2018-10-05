@@ -1,0 +1,9 @@
+/css
+/docs
+/js
+/node_modules
+*.md
+LICENSE
+.*ignore
+demo.html
+*.config.js
