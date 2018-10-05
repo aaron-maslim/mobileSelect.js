@@ -1,0 +1,21 @@
+{
+  "name": "mobile-select",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mobileSelect.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaron-maslim/mobileSelect.js.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aaron-maslim/mobileSelect.js/issues"
+  },
+  "homepage": "https://github.com/aaron-maslim/mobileSelect.js#readme"
+}
